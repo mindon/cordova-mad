@@ -17,4 +17,12 @@ It drove me crazy! That's why this cordova-mad repo is here with my first hook f
 Inspired by [icons_and_splash.js](https://gist.github.com/apla/6179863), thanks - [apla](https://gist.github.com/apla)
 
 
+[hooks/after_prepare/icon-splash.js](https://github.com/mindon/cordova-mad/tree/master/hooks/after_prepare)
+-----------
+use folder **/res/icons/** instead of **/www/res/icons/**
+
+
+
+----------------
+
 visit [Mindon.IDEA](http://mindon.github.io)
