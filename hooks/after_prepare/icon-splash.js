@@ -1,12 +1,16 @@
 #!/usr/bin/env node
 
-var _NMR = '';
+var _NMR = ''; // update this to your node_modules/ where cordova locates
 
 var cordova_util = require(_NMR +'cordova/src/util');
 var platforms = require(_NMR +'cordova/platforms');
 var projRoot = cordova_util.isCordova(process.cwd());
 var projXml = cordova_util.projectConfig(projRoot);
-var projConfig = new cordova_util.config_parser(projXml);
+var ConfigParser = cordova_util.config_parser
+if(undefined === ConfigParser) {
+    ConfigParser = require(_NMR +'cordova/src/ConfigParser');
+}
+var projConfig = new ConfigParser(projXml);
 var projName = projConfig.name();
 
 var fs = require ('fs');
