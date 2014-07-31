@@ -23,7 +23,7 @@ var platformDir = {
 			"icon-40.png": "icon-40.png",
 			"icon-40-2x.png": "icon-40@2x.png",
 			"icon-50.png": "icon-50.png",
-			"icon-50-2x.png": "icon-50.png",
+			"icon-50-2x.png": "icon-50@2x.png",
 			"icon-60.png": "icon-60.png",
 			"icon-60-2x.png": "icon-60@2x.png",
 			"icon-72.png": "icon-72.png",
