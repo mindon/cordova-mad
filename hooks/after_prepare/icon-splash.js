@@ -126,7 +126,7 @@ if( i > -1) {
 //console.log(isAll, selected) && err();
 
 for(var platform in platformDir) {
-  if( !isAll || selected.indexOf(platform) < 0 )
+  if( !isAll && selected.indexOf(platform) < 0 )
     continue;
 
   var d = platformDir[platform];
